@@ -8,7 +8,7 @@ st.subheader("A web application that allows to summarize pamphlets")
 # Text input
 txt_input = st.text_area('Enter your text', '', height=200)
 from transformers import pipeline
-
+hf_api_key = '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'
 get_completion = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
 def summarize(txt_input):
