@@ -1,4 +1,4 @@
 transformers
-streamlit
+streamlit >= 1.10.0 
 Pillow
 torch
